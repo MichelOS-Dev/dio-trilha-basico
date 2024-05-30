@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.exemplo.listaTarefa;
+package collectionsJavaApi.exemplo.listaTarefa;
 
 public class Tarefa {
 	

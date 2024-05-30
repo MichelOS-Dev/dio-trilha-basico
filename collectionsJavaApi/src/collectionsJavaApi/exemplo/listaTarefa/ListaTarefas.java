@@ -1,4 +1,4 @@
-package collectionsJavaApi2023.exemplo.listaTarefa;
+package collectionsJavaApi.exemplo.listaTarefa;
 
 import java.util.ArrayList;
 import java.util.List;
