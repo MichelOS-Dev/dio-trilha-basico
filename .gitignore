@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+#Excluir pasta bin de todos os projetos
+**/bin/
+
 # Log file
 *.log
 
