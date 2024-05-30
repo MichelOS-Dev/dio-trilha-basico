@@ -1,4 +1,4 @@
-package collectionsJavaApi.atividades.carrinhoCompras;
+package assuntoList.atividades.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;

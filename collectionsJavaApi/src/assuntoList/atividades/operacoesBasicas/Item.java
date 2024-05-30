@@ -1,4 +1,4 @@
-package collectionsJavaApi.atividades.carrinhoCompras;
+package assuntoList.atividades.operacoesBasicas;
 
 public class Item {
 	private String nome;

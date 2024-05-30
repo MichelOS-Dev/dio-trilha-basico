@@ -1,4 +1,4 @@
-package collectionsJavaApi.exemplo.listaTarefa;
+package assuntoList.exemplos.operacoesBasicas;
 
 public class Tarefa {
 	

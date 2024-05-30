@@ -1,4 +1,4 @@
-package collectionsJavaApi.exemplo.listaTarefa;
+package assuntoList.exemplos.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
