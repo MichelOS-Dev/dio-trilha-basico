@@ -1,12 +1,7 @@
-package map.atividades;
+package map.atividades.operacoesBasicas;
 
 import java.util.HashMap;
 import java.util.Map;
-
-
-
-
-
 
 public class Dicionario {
 	private Map<String, String> dicionario;
