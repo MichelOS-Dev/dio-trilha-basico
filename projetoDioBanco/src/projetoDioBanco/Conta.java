@@ -17,6 +17,8 @@ public abstract class Conta implements IConta {
 			this.agencia = Conta.AGENCIA_PADRAO;
 			this.numero = SEQUENCIAL++;
 			this.tipoConta = tipo;
+			this.saldo = 0.0;
+			this.status = true;
 		}
 		
 		
@@ -68,6 +70,10 @@ public abstract class Conta implements IConta {
 
 		public void setStatus(boolean status) {
 			this.status = status;
-		}	
+		}
+		
+		public String getTipoConta() {
+			return tipoConta;
+		}
 
 }

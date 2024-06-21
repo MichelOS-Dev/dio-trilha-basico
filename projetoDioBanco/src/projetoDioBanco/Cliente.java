@@ -29,5 +29,8 @@ public class Cliente {
 	public String getCpf() {
 		return cpf;
 	}
-
+	
+	public String getEndereco() {
+		return endereco;
+	}
 }
