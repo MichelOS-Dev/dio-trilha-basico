@@ -1,4 +1,4 @@
-package projetoDioBanco;
+package bancoDigital;
 
 public interface IConta {
 	
