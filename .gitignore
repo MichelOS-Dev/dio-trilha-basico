@@ -21,21 +21,16 @@
 *.zip
 *.tar.gz
 *.rar
-/.classpath
-/.project
-**/settings/
+**/.settings/
+**/.classpath
+**/.project
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-projetoDioBanco/.settings/
 tipos-variaveis/.vscode/settings.json
 SISTEMA-SMART-TV/.vscode/settings.json
 conta-banco/.vscode/settings.json
 desafio-controle-fluxo-contador/.vscode/settings.json
-collectionsJavaApi/.settings/
-collectionsJavaApi/.classpath
-collectionsJavaApi/.project
-collectionsJavaApi/.gitgnore
 /.metadata/
 
