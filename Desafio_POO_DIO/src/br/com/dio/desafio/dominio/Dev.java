@@ -12,8 +12,8 @@ public class Dev {
 	private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 	
 	public void inscreverBootcamp(Bootcamp bootcamp) {
-		this.conteudosConcluidos.addAll(bootcamp.getConteudos());
-		bootcamp.getDevsIncritos().add(this);
+		this.conteudosInscritos.addAll(bootcamp.getConteudos());
+		bootcamp.getDevsInscritos();
 	}
 	
 	public void progredir() {
@@ -34,11 +34,11 @@ public class Dev {
 		return nome;
 	}
 
-	public Set<Conteudo> getConteudoInscritos() {
+	public Set<Conteudo> getConteudosInscritos() {
 		return conteudosInscritos;
 	}
 
-	public Set<Conteudo> getConteudoConcluidos() {
+	public Set<Conteudo> getConteudosConcluidos() {
 		return conteudosConcluidos;
 	}
 
@@ -56,7 +56,7 @@ public class Dev {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(conteudosInscritos, conteudosConcluidos, nome);
+		return Objects.hash(conteudosConcluidos, conteudosInscritos, nome);
 	}
 
 	@Override
@@ -68,9 +68,8 @@ public class Dev {
 		if (getClass() != obj.getClass())
 			return false;
 		Dev other = (Dev) obj;
-		return Objects.equals(conteudosInscritos, other.conteudosInscritos) && Objects.equals(conteudosConcluidos, other.conteudosConcluidos)
-				&& Objects.equals(nome, other.nome);
+		return Objects.equals(conteudosConcluidos, other.conteudosConcluidos)
+				&& Objects.equals(conteudosInscritos, other.conteudosInscritos) && Objects.equals(nome, other.nome);
 	}
-
 	
 }
